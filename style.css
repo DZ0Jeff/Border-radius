@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    height: 100vh;
+}
+
+#root {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.box-container {
+    width: 75vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+
+.options {
+    width: 25vw;
+    background-color: black;
+    padding: 1rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    max-height: 100vh;
+}
+
+.options h1 {
+    height: 10vh;
+    color: white;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 20pt;
+    font-family: cursive;
+    text-transform: uppercase;
+}
+
+.options input[type="range"]{
+    margin: 0;
+    padding: 0;
+    height: 6vh;
+}
+
+.options label {
+    color: white;
+    height: 3vh;
+}
+
+#copiar {
+    margin-top: 1rem;
+    background-color: red;
+    width: 20vw;
+    height: 6vh;
+    border: none;
+    cursor: pointer;
+    color: white;
+}
+
+#copiar:hover {
+    background-color: rgb(182, 0, 0);
+}
