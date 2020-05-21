@@ -25,6 +25,12 @@
     width: 100px;
     height: 100px;
     background-color: red;
+    border-radius: 
+        calc(var(--topo, 0) * 1em)
+        calc(var(--esquerdo, 0) * 1em)
+        calc(var(--direito, 0) * 1em)
+        calc(var(--baixo, 0) * 1em)
+    ;
 }
 
 .options {
