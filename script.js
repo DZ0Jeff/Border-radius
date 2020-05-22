@@ -12,5 +12,8 @@ ranges.forEach(range => {
 });
 
 button.addEventListener("click", () => {
-    alert("Em manuntenção!")
+    const style = getComputedStyle(box)
+    let borderCSS = style.borderRadius
+    
+    console.log(borderCSS)
 })

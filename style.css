@@ -81,3 +81,7 @@
 #copiar:hover {
     background-color: rgb(182, 0, 0);
 }
+
+#copiar:active {
+    background-color: rgb(236, 1, 1);
+}
