@@ -10,3 +10,7 @@ ranges.forEach(range => {
         )
     })
 });
+
+button.addEventListener("click", () => {
+    alert("Em manuntenção!")
+})

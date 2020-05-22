@@ -64,6 +64,8 @@
 .options label {
     color: white;
     height: 3vh;
+    font-family: sans-serif;
+    font-weight: bold;
 }
 
 #copiar {
